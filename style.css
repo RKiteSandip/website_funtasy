@@ -1,0 +1,98 @@
+body{
+    max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+.nav_bar{
+    background-color: aqua;
+}
+.nav {
+    position:relative;
+    left: 250px;
+}
+.nav li{
+    display: inline-block;
+    margin: 5px 200px;
+}
+.nav li a{
+    text-decoration: none;    
+}
+
+.header{
+    position: relative;
+}
+.header img{
+    width: 100%;
+    max-height: 850px;
+}
+.header h1{
+    position: absolute;
+    font-size: 250px;
+    color: #05e977;
+    left:50px;
+    bottom:120px;
+    z-index: 1;
+}
+.about h1{
+    color: rgb(1, 57, 1);
+}
+.about h1.tag{
+    color: lightseagreen;
+    font-weight: 650;
+    font-style: oblique;
+    font-size: 52px;
+}
+.about h1 span{
+    font-weight: 1000;
+    font-style: italic;
+}
+.about p{
+    font-size: 25px;
+}
+.about p span{
+    font-style: italic;
+}
+.india{
+    font-style: oblique;
+}
+.about li{
+    display: inline-block;
+    margin: 20px 90px;
+}
+.about img{
+    max-width: 100px;
+}
+.chefs li{
+    border: 20px solid burlywood;
+}
+.chefs img{
+    margin: 40px 250px;
+    padding: 0px 200px;
+    display: block;
+    max-width: 500px;
+}
+.chefs h2{
+    padding: 0px 650px;
+}
+.footer{
+    position: relative;
+    height: 150px;
+    background-color: rgb(172, 84, 172);
+}
+.footer img{
+    max-width: 80px;
+    max-height: 80px;
+    margin: 20px 20px;
+}
+.footer h3{
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    padding: 45px 0px ;
+}
+.footer span{
+    position: relative;
+    left: 1100px;   
+}
